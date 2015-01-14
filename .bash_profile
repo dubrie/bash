@@ -2,6 +2,9 @@
 alias ll='ls -al'
 alias lh='ls -alh'
 
+#VI --> VIM alias
+alias vi='/usr/bin/vim'
+
 # Display path elements on individual lines
 alias path='echo $PATH | tr ":" "\n" | sort'
 
@@ -29,3 +32,6 @@ export M2_HOME=/usr/local/Cellar/maven31/3.1.1/libexec
 export M2=${M2_HOME}/bin
 PATH=${M2}:${PATH}:
 PATH="$PATH:/usr/local/Cellar"
+
+# Sublime Command line support
+PATH="$PATH:~/bin/"
