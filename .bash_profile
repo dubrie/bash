@@ -35,3 +35,6 @@ PATH="$PATH:/usr/local/Cellar"
 
 # Sublime Command line support
 PATH="$PATH:~/bin/"
+
+# Load RVM into a shell session *as a function*
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
