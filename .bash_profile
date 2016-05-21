@@ -14,6 +14,9 @@ alias ducks='du -cks *|sort -rn|head -11'
 # Show active network listeners
 alias netlisteners='lsof -i -P | grep LISTEN'
 
+# Simpleserver
+alias simpleserver='python -m SimpleHTTPServer 8888 &'
+
 function _findcode() {
   find . -name .repo -prune -o -name .git -prune -o ${1+"$@"} -print0
 }
