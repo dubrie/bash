@@ -65,3 +65,6 @@ PATH="$PATH:~/bin/"
 
 # Magic thread variable for MiniTest framework
 export N=20
+
+# Homebrew sbin
+export PATH="/usr/local/sbin:$PATH"
