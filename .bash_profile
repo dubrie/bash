@@ -8,6 +8,27 @@ alias vi='/usr/bin/vim'
 # Display path elements on individual lines
 alias path='echo $PATH | tr ":" "\n" | sort'
 
+# kernel errors
+# dmesg | tail
+
+# CPU Balance
+# alias cpu='mpstat -P ALL 1'
+
+# Process usage
+# pidstat 1
+
+# disk I/O
+# alias diskio='iostat -xz 1'
+
+# Memory usage
+# free -m
+
+# network I/O
+# alias netio='sar -n DEV 1'
+
+# TCP stats
+# alias tcp='sar -n TCP,ETCP 1'
+
 # List top ten largest files/directories in current directory
 alias ducks='du -cks *|sort -rn|head -11'
 
